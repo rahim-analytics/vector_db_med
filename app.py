@@ -12,7 +12,7 @@ from langchain.prompts import PromptTemplate
 # ========================
 st.set_page_config(page_title="MediBot", page_icon="🤖")
 
-PINECONE_API_KEY = "pcsk_DuZ3T_CjfL6WhZ6XCG5BQUJgY8yjrVpFC9MiXawjhb1L7m7zcNGQxX82QQfxWUceLT3Kt"
+PINECONE_API_KEY = "Pinecone API key"
 INDEX_NAME = "my-index"
 
 # ========================
@@ -27,7 +27,7 @@ retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
-    google_api_key="AIzaSyAG8D6LnJlmMjJyvaKUhr5VYr27sTjNo94",
+    google_api_key="Google API Key",
     temperature=0.5
 )
 
