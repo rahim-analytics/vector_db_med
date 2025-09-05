@@ -1,0 +1,26 @@
+[project]
+name = "vector-db-med"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "faiss-cpu>=1.12.0",
+    "huggingface>=0.0.1",
+    "ipykernel>=6.30.1",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.29",
+    "langchain-google-genai>=2.1.10",
+    "langchain-huggingface>=0.3.1",
+    "langchain-pinecone>=0.2.11",
+    "ngrok>=1.5.1",
+    "numpy>=2.3.2",
+    "openai>=1.102.0",
+    "pandas>=2.3.2",
+    "pinecone-client>=6.0.0",
+    "pyngrok>=7.3.0",
+    "pypdf>=6.0.0",
+    "sentence-transformers>=5.1.0",
+    "streamlit>=1.49.1",
+    "tdqm>=0.0.1",
+]
