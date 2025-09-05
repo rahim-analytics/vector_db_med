@@ -88,4 +88,4 @@ for chat in st.session_state["chat_history"]:
     st.markdown(f"**🧑 You:** {chat['user']}")
     st.markdown(f"**🤖 Bot:** {chat['bot']}")
     st.markdown("---")
-
+# Save the QA chain in session state
